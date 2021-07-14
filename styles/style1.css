@@ -36,6 +36,7 @@ header {
     height: 44px;
     padding: 10px 24px;
     margin-top: 27px;
+    border: none;
 }
 .btn a {
     text-decoration: none;
@@ -270,6 +271,7 @@ label{
     font-size: 30px;
     color: gray;
 }
+
 
 
 
