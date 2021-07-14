@@ -114,6 +114,12 @@ nav a {
     font-weight: 700;
     color: #fff;
 }
+.banner-parts{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
 .banner-parts img {
     width: 556px;
 }
@@ -191,6 +197,15 @@ nav a {
 #high-light-parts img{
     width: 567px;
 }
+
+
+
+
+/*             footer              */
+
+
+
+
 footer{
     display: flex;
     flex-direction: column;
@@ -205,13 +220,12 @@ footer{
 #icons{
     margin-bottom:1rem;
     display: flex;
-    margin: 0;
 }
 #icons i{
     margin-right:15%;
     padding: 5%;
     color: #969BAB ;
-    background-color: gray;
+    background-color: rgba(0, 0, 0, 0.103);
     border-radius: 50px;
 }
 footer p{
@@ -219,7 +233,21 @@ footer p{
     line-height: 24px;
     margin-top: 20px;
 }
+
+
+
+
+/*                 media queries                */
+
+
+
+
+
+/*                 small devices            */
+
 @media only screen and (max-width: 715px) {
+    
+    /*---------nav---------*/
     nav{
         width: 80%;
     }
@@ -230,19 +258,15 @@ footer p{
         display: block;
         font-size: 26px;
         color: white;
-        padding: 0;
     }
+
+    /*----------banner---------*/
+
     #banner,#high-light{
         width: 80%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(2,1fr);
         grid-row-gap: 30px;
-    }
-    .banner-parts{
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        justify-content: center;
     }
     .banner-parts img{
         width:329px;
@@ -250,11 +274,17 @@ footer p{
     #banner h1{
         font-size: 36px;
     }
+
+    /*-------players-------- */
+
     .top-players {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 30px;
     }
+
+    /* --------high-lights--------- */
+
     #high-light-parts{
         align-items: flex-start;
         justify-content: left;
@@ -265,13 +295,19 @@ footer p{
     #high-light img{
         width: 328px;
     }
+
+    /* --------footer-------- */
+
     #footer-logo img{
         width:210px;
     }
 
 }
 @media only screen and (min-width: 716px) and (max-width: 1160px)  {
-    nav{
+    
+    /*---------nav---------*/
+    
+    nav,#banner{
         width:80%
     }
     nav li {
@@ -285,20 +321,26 @@ footer p{
         color: white;
         padding: 0;
     }
-    #banner {
-        width: 80%;
-    }
+    
+    /*----------banner---------*/
+    
     .banner-parts img{
         width:356px;
     }
     #banner h1{
         font-size: 44px;
     }
+
+    /*-------players-------- */
+
     .top-players {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
     }
+
+    /* --------high-lights--------- */
+
     #high-light{
         width: 80%;
         grid-row-gap: 30px;
@@ -316,6 +358,9 @@ footer p{
     #high-light h2{
         font-size: 36px;
     }
+
+    /*------footer-------*/
+
     #footer-logo img{
         width: 350px;
     }
