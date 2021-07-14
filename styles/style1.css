@@ -293,14 +293,15 @@ footer{
     width: 484px;
 }
 #icons{
+    justify-content: center;
     margin-bottom:1rem;
     display: flex;
 }
-#icons i{
+#icons img,a{
+    width: 40px;
     margin-right:15%;
     padding: 5%;
     color: #969BAB ;
-    background-color: rgba(0, 0, 0, 0.103);
     border-radius: 50px;
 }
 footer p{
