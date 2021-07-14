@@ -297,8 +297,8 @@ footer{
     margin-bottom:1rem;
     display: flex;
 }
-#icons img,a{
-    width: 40px;
+#icons img,#icons a{
+    width: 50px;
     margin-right:15%;
     padding: 5%;
     color: #969BAB ;
@@ -383,6 +383,9 @@ footer p{
 
     #contact-con{
         width: 80%;
+    }
+    textarea{
+        height: 200px;
     }
 
     /* --------footer-------- */
