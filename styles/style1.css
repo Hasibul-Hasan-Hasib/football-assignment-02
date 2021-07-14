@@ -249,41 +249,11 @@ nav li:hover{
 }
 
 
-/*            contact              */
+/*            live video              */
 
 
 
 
-/* #contact-con{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 70px;
-}
-#contact-con h3{
-    font-size: 42px;
-    font-weight: 700;
-}
-.text-con {
-    width: 95%;
-    padding: 12px;
-    border: 1px solid gray;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-textarea{
-    height: 250px;
-}
-label{
-    font-size: 30px;
-    color: gray;
-}
-input[type=submit]{
-    font-size: 16px;
-} */
 #live{
     display: flex;
     flex-direction: column;
@@ -401,17 +371,11 @@ footer p{
         grid-gap: 30px;
     }
 
-    /* -------contact-------- */
+    /* -------live video-------- */
 
-    /* #contact-con{
-        width: 80%;
-    }
-    textarea{
-        height: 200px;
-    } */
     #video{
-        width:270px;
-        height: 170px;
+        width:300px;
+        height: 165px;
     }
 
     /* --------footer-------- */
@@ -496,11 +460,9 @@ footer p{
         grid-gap: 30px;
     }
 
-    /* -------contact-------- */
+    /* -------live video-------- */
 
-    #contact-con{
-        width: 80%;
-    }
+    
     
     /*------footer-------*/
 
